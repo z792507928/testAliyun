@@ -1,3 +1,3 @@
 FROM nginx:latest
-COPY ./dist/ /etc/nginx/testAliyun
+COPY ./ /etc/nginx/testAliyun
 WORKDIR /etc/nginx/testAliyun
